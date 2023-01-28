@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 300px;
+    overflow: hidden;
+    height: 100%;
+    background-color: var(--primary-color);
+    transition: 0.2s;
+    border: 5px solid #881711;
+}
+
+.container span{
+    left: 0px;
+    opacity: 100%;
+    transition: 0.5s;
+}
